@@ -1,0 +1,162 @@
+#hero{
+    height: 720px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3% 60% 35%;
+}
+#heroSocial{
+    height: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: left;
+}
+.socialIcon{
+    width: 48px;
+    padding: 5px;
+    margin: auto;
+}
+#heroInfo{
+    text-align: left;
+    margin-left: 60px;
+}
+.socialIcon:hover{
+    background-color: rgb(185, 185, 185) ;
+    border-radius: 20px;
+    padding: 5px;
+}
+#heroInfo{
+    margin-top: 20%;
+}
+#heroInfo h1{
+    font-size: 350%;
+}
+#heroInfo h3{
+    margin-top: -40px;
+}
+.wrapper {
+    height: auto;
+  }
+  
+  .typing-demo {
+    width: 12ch;
+    animation: typing 2s steps(15), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-weight: 800;
+    margin-bottom: -40px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  #heroInfo h3 {
+    color: #333;
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+  }
+  
+  #heroInfo h3 span {
+    font-size: 40px;
+  }
+  
+  .message {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    top: 0.2rem;
+    left: 30px;
+    padding-left: 10px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 30%;
+    }
+    30% {
+      top: 0.2rem;
+      width: 30%;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 85%;
+    }
+    62% {
+      top: -4.5rem;
+      width: 85%;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 80%;
+    }
+    95% {
+      top: -9rem;
+      width: 80%;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
